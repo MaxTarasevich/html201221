@@ -1,0 +1,40 @@
+.header{
+    background-color: $light-grey;
+    padding: 64px 0;
+    color:$dark-grey;
+    .container{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &-logo{
+        display: flex;
+        width: 280px;
+        &-img{
+            background-color: $dark-grey;
+            min-width: 100px;
+            height: 100px;
+        }
+        &-content{
+            margin-left: 16px;
+            padding-top: 9px;
+        }
+        &-title{
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 0.8;
+        }
+        &-subtitle{
+            line-height: 3;
+        }
+    }
+
+    &-tel{
+        display: flex;
+        flex-direction: column;
+       gap:20px;
+       font-size: 40px;
+      
+    }
+
+}
